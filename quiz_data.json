@@ -1,0 +1,212 @@
+[
+    {
+        "Question": "What function does the cell membrane serve?",
+        "Option 1": "Controls what enters and exits to maintain homeostasis, provides structural support.",
+        "Option 2": "Only protects the cell.",
+        "Correct Answer": "Controls what enters and exits to maintain homeostasis, provides structural support."
+    },
+    {
+        "Question": "Define compartmentalization in cell membranes.",
+        "Option 1": "Allows specialized activities without interference, enabling independent regulation.",
+        "Option 2": "Allows molecules to move freely across the cell.",
+        "Correct Answer": "Allows specialized activities without interference, enabling independent regulation."
+    },
+    {
+        "Question": "What is the purpose of scaffolding in membranes?",
+        "Option 1": "Provides framework for organized biochemical activities.",
+        "Option 2": "Organizes lipids and carbohydrates on membrane surface.",
+        "Correct Answer": "Provides framework for organized biochemical activities."
+    },
+    {
+        "Question": "How do membranes provide a selectively permeable barrier?",
+        "Option 1": "Selectively allows molecules to pass while restricting others.",
+        "Option 2": "Fully blocks molecule entry.",
+        "Correct Answer": "Selectively allows molecules to pass while restricting others."
+    },
+    {
+        "Question": "What does energy transduction mean in the context of cell membranes?",
+        "Option 1": "Conversion of one type of energy to another, like in photosynthesis.",
+        "Option 2": "Converts chemical energy to glucose.",
+        "Correct Answer": "Conversion of one type of energy to another, like in photosynthesis."
+    },
+    {
+        "Question": "Describe the lipid bilayer structure.",
+        "Option 1": "Double layer of phospholipids with hydrophilic heads and hydrophobic tails.",
+        "Option 2": "Single phospholipid layer with protein support.",
+        "Correct Answer": "Double layer of phospholipids with hydrophilic heads and hydrophobic tails."
+    },
+    {
+        "Question": "What is the significance of the Fluid Mosaic Model?",
+        "Option 1": "Describes membrane as a flexible structure with proteins embedded in lipid bilayer.",
+        "Option 2": "Describes membrane as rigid, immobile structure.",
+        "Correct Answer": "Describes membrane as a flexible structure with proteins embedded in lipid bilayer."
+    },
+    {
+        "Question": "What role do membrane proteins play?",
+        "Option 1": "Function as channels, carriers, enzymes, and receptors.",
+        "Option 2": "Assist in energy storage and release.",
+        "Correct Answer": "Function as channels, carriers, enzymes, and receptors."
+    },
+    {
+        "Question": "What are the two main types of membrane proteins, and how do they differ?",
+        "Option 1": "Integral proteins penetrate membrane, peripheral attach to surface.",
+        "Option 2": "Peripheral proteins penetrate core, integral attach to outer layer.",
+        "Correct Answer": "Integral proteins penetrate membrane, peripheral attach to surface."
+    },
+    {
+        "Question": "What role do carbohydrates play in cell-cell recognition?",
+        "Option 1": "Help cells recognize each other, forming glycoproteins or glycolipids.",
+        "Option 2": "Break down unwanted molecules on cell surface.",
+        "Correct Answer": "Help cells recognize each other, forming glycoproteins or glycolipids."
+    },
+    {
+        "Question": "What is membrane permeability, and what types of molecules can pass through it?",
+        "Option 1": "Allows hydrophobic molecules like hydrocarbons to pass easily.",
+        "Option 2": "Prevents all molecules from passing.",
+        "Correct Answer": "Allows hydrophobic molecules like hydrocarbons to pass easily."
+    },
+    {
+        "Question": "Define diffusion in terms of membrane transport.",
+        "Option 1": "Movement from high to low concentration without energy input.",
+        "Option 2": "Movement against concentration gradient requiring energy.",
+        "Correct Answer": "Movement from high to low concentration without energy input."
+    },
+    {
+        "Question": "What factors influence diffusion rates?",
+        "Option 1": "Distance, molecular size, temperature, concentration gradient, membrane surface area.",
+        "Option 2": "Molecular size and membrane thickness only.",
+        "Correct Answer": "Distance, molecular size, temperature, concentration gradient, membrane surface area."
+    },
+    {
+        "Question": "What is osmosis?",
+        "Option 1": "Diffusion of water across a selectively permeable membrane.",
+        "Option 2": "Active transport process involving water movement.",
+        "Correct Answer": "Diffusion of water across a selectively permeable membrane."
+    },
+    {
+        "Question": "Describe what happens to a cell in an isotonic solution.",
+        "Option 1": "No net water movement; cell remains stable.",
+        "Option 2": "Cell shrinks as water leaves it.",
+        "Correct Answer": "No net water movement; cell remains stable."
+    },
+    {
+        "Question": "What is the difference between facilitated diffusion and active transport?",
+        "Option 1": "Facilitated uses transport proteins passively; active requires energy.",
+        "Option 2": "Uses energy for molecule movement; facilitated diffusion is passive.",
+        "Correct Answer": "Facilitated uses transport proteins passively; active requires energy."
+    },
+    {
+        "Question": "What is the sodium-potassium pump, and why is it important?",
+        "Option 1": "Moves sodium/potassium ions against gradients, maintains potential.",
+        "Option 2": "Passively allows ions to diffuse through membrane.",
+        "Correct Answer": "Moves sodium/potassium ions against gradients, maintains potential."
+    },
+    {
+        "Question": "What drives the movement of ions across a membrane?",
+        "Option 1": "Electrochemical gradient: chemical (concentration) & electrical forces.",
+        "Option 2": "Concentration and ion charge only.",
+        "Correct Answer": "Electrochemical gradient: chemical (concentration) & electrical forces."
+    },
+    {
+        "Question": "Define cotransport.",
+        "Option 1": "Active transport of one solute drives another's transport.",
+        "Option 2": "Doesn't affect other molecules' movement.",
+        "Correct Answer": "Active transport of one solute drives another's transport."
+    },
+    {
+        "Question": "List the three types of endocytosis and their functions.",
+        "Option 1": "Phagocytosis, pinocytosis, receptor-mediated endocytosis.",
+        "Option 2": "Endocytosis.",
+        "Correct Answer": "Phagocytosis, pinocytosis, receptor-mediated endocytosis."
+    },
+    {
+        "Question": "What is exocytosis, and what purpose does it serve?",
+        "Option 1": "Vesicles fuse with membrane to release contents outside.",
+        "Option 2": "Fuses with cell to remove waste.",
+        "Correct Answer": "Vesicles fuse with membrane to release contents outside."
+    },
+    {
+        "Question": "How does membrane fluidity benefit the cell?",
+        "Option 1": "Allows lateral movement for cell flexibility and adaptability.",
+        "Option 2": "Fixes membrane in place without movement.",
+        "Correct Answer": "Allows lateral movement for cell flexibility and adaptability."
+    },
+    {
+        "Question": "Why are ion pumps crucial for membrane potential?",
+        "Option 1": "They create/maintain voltage differences by moving ions.",
+        "Option 2": "Ion pumps adjust only concentration levels.",
+        "Correct Answer": "They create/maintain voltage differences by moving ions."
+    },
+    {
+        "Question": "Explain the concept of tonicity.",
+        "Option 1": "Solution's ability to cause cell water gain/loss.",
+        "Option 2": "Process to make solutions isotonic.",
+        "Correct Answer": "Solution's ability to cause cell water gain/loss."
+    },
+    {
+        "Question": "What happens to a plant cell in a hypertonic environment?",
+        "Option 1": "Cell loses water, leading to plasmolysis.",
+        "Option 2": "Cell gains water and swells.",
+        "Correct Answer": "Cell loses water, leading to plasmolysis."
+    },
+    {
+        "Question": "How does active transport differ from passive transport?",
+        "Option 1": "Requires energy to move molecules against gradient, passive doesn\u2019t.",
+        "Option 2": "Directly passes molecules through lipid bilayer.",
+        "Correct Answer": "Requires energy to move molecules against gradient, passive doesn\u2019t."
+    },
+    {
+        "Question": "What is the role of aquaporins in cell membranes?",
+        "Option 1": "Channel proteins that facilitate water passage across membrane.",
+        "Option 2": "Receptor proteins that move molecules across the cell.",
+        "Correct Answer": "Channel proteins that facilitate water passage across membrane."
+    },
+    {
+        "Question": "Describe membrane potential.",
+        "Option 1": "Voltage difference across membrane due to ion distribution.",
+        "Option 2": "Electrochemical gradient: pressure and cell size.",
+        "Correct Answer": "Voltage difference across membrane due to ion distribution."
+    },
+    {
+        "Question": "What is the function of glycoproteins in membranes?",
+        "Option 1": "Assist in cell recognition and signaling.",
+        "Option 2": "Forms barriers to avoid unwanted cellular interaction.",
+        "Correct Answer": "Assist in cell recognition and signaling."
+    },
+    {
+        "Question": "How do lipid compositions vary in membranes, and why?",
+        "Option 1": "Adapt for fluidity and permeability, suited to environment.",
+        "Option 2": "Flexible structures that assist membrane proteins.",
+        "Correct Answer": "Adapt for fluidity and permeability, suited to environment."
+    },
+    {
+        "Question": "What is a proton pump, and in which organisms is it common?",
+        "Option 1": "Electrogenic pump creating voltage across membrane, common in plants/fungi/bacteria.",
+        "Option 2": "Form layers on cell surface.",
+        "Correct Answer": "Electrogenic pump creating voltage across membrane, common in plants/fungi/bacteria."
+    },
+    {
+        "Question": "What process involves vesicles fusing with the plasma membrane to release contents?",
+        "Option 1": "Exocytosis.",
+        "Option 2": "Endocytosis.",
+        "Correct Answer": "Exocytosis."
+    },
+    {
+        "Question": "How do ion gradients contribute to cellular energy?",
+        "Option 1": "Creates potential for energy in cellular processes.",
+        "Option 2": "Removes excess ions across membrane.",
+        "Correct Answer": "Creates potential for energy in cellular processes."
+    },
+    {
+        "Question": "What does it mean when the membrane is selectively permeable?",
+        "Option 1": "Allows certain molecules while blocking others.",
+        "Option 2": "Uses energy to form concentration gradient.",
+        "Correct Answer": "Allows certain molecules while blocking others."
+    },
+    {
+        "Question": "What are channel-mediated diffusion and carrier-mediated diffusion?",
+        "Option 1": "Channel-mediated uses channels for ions; carrier-mediated binds, changes shape for transport.",
+        "Option 2": "Channel proteins permit all substances; carrier bind selectively.",
+        "Correct Answer": "Channel-mediated uses channels for ions; carrier-mediated binds, changes shape for transport."
+    }
+]
