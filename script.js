@@ -12,31 +12,32 @@ fetch('quiz_data.json')
     })
     .catch(error => console.error('Error loading quiz data:', error));
 
-function showQuestion() {
-    const questionElement = document.getElementById("question");
-    const optionsElement = document.getElementById("options");
+    function showQuestion() {
+        const questionElement = document.getElementById("question");
+        const optionsElement = document.getElementById("options");
+        
+        let questionData = quizData[currentQuestionIndex];
+        questionElement.innerText = questionData.question;
+        
+        // Clear previous options
+        optionsElement.innerHTML = "";
     
-    let questionData = quizData[currentQuestionIndex];
-    questionElement.innerText = questionData.Question;
-    
-    // Clear previous options
-    optionsElement.innerHTML = "";
-
-    // Show options
-    ['Option 1', 'Option 2'].forEach(optionKey => {
-        let optionButton = document.createElement("button");
-        optionButton.innerText = questionData[optionKey];
-        optionButton.addEventListener("click", () => {
-            userAnswers.push({ 
-                question: questionData.Question,
-                selected: questionData[optionKey],
-                correct: questionData["Correct Answer"]
+        // Show all options
+        questionData.options.forEach(option => {
+            let optionButton = document.createElement("button");
+            optionButton.innerText = option;
+            optionButton.addEventListener("click", () => {
+                userAnswers.push({ 
+                    question: questionData.question,
+                    selected: option,
+                    correct: questionData.answer
+                });
+                checkAnswer(option, questionData.answer);
             });
-            checkAnswer(questionData[optionKey], questionData["Correct Answer"]);
+            optionsElement.appendChild(optionButton);
         });
-        optionsElement.appendChild(optionButton);
-    });
-}
+    }
+    
 
 function checkAnswer(selectedOption, correctAnswer) {
     if (selectedOption === correctAnswer) {
