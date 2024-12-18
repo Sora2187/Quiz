@@ -1,842 +1,209 @@
-[
-    {"question": "What is the study of energy transformations in living organisms called?", "options": ["Thermodynamics", "Bioenergetics", "Metabolism", "Kinetics"], "answer": "Bioenergetics"},
-    {"question": "Which law states that energy can neither be created nor destroyed?", "options": ["Second Law of Thermodynamics", "Law of Entropy", "First Law of Thermodynamics", "Law of Conservation"], "answer": "First Law of Thermodynamics"},
-    {"question": "In a spontaneous process, the entropy of the universe _____?", "options": ["decreases", "increases", "remains the same", "fluctuates"], "answer": "increases"},
-    {"question": "What type of reaction releases energy into its surroundings?", "options": ["Endergonic", "Exergonic", "Metabolic", "Isothermic"], "answer": "Exergonic"},
-    {"question": "What structure do enzymes have?", "options": ["Primary", "Secondary", "Tertiary and Quaternary", "All of the above"], "answer": "Tertiary and Quaternary"},
-    {"question": "What is the role of enzymes in cellular reactions?", "options": ["Slow down reactions", "Act as a substrate", "Act as catalysts", "Consume energy"], "answer": "Act as catalysts"},
-    {"question": "What does a catalyst do in a chemical reaction?", "options": ["Consumes reactants", "Lowers activation energy", "Raises activation energy", "Increases entropy"], "answer": "Lowers activation energy"},
-    {"question": "What is the unique shape on an enzyme where substrates bind called?", "options": ["Binding groove", "Active site", "Catalytic region", "Enzyme pocket"], "answer": "Active site"},
-    {"question": "Enzymes fit with substrates like a _____?", "options": ["Glove and hand", "Nut and bolt", "Key and lock", "Frame and picture"], "answer": "Key and lock"},
-    {"question": "When an enzyme and substrate are interacting during a reaction, they are called a ____?", "options": ["Catalytic bond", "Enzyme-substrate complex", "Reaction pair", "Binding pocket"], "answer": "Enzyme-substrate complex"},
-    {"question": "Enzymes are ____ during reactions?", "options": ["Used up", "Not reusable", "Reusable", "Consumed as energy"], "answer": "Reusable"},
-    {"question": "What suffix do most enzyme names end with?", "options": ["-ine", "-ase", "-ate", "-ose"], "answer": "-ase"},
-    {"question": "Which factor does NOT influence enzyme activity?", "options": ["Temperature", "pH", "Cofactors", "Color"], "answer": "Color"},
-    {"question": "Which vitamin serves as a common coenzyme?", "options": ["Vitamin C", "Vitamin D", "Vitamin B12", "Vitamin E"], "answer": "Vitamin B12"},
-    {"question": "Competitive inhibitors _____?", "options": ["bind to a different site", "resemble substrate", "increase enzyme efficiency", "speed up reactions"], "answer": "resemble substrate"},
-    {"question": "What is a characteristic of non-competitive inhibitors?", "options": ["Bind to active site", "Do not affect enzyme shape", "Bind to a different site", "Resemble substrate"], "answer": "Bind to a different site"},
-    {"question": "What is metabolism?", "options": ["Sum of all cellular chemical reactions", "Production of ATP only", "Absorption of oxygen", "Breakdown of proteins"], "answer": "Sum of all cellular chemical reactions"},
-    {"question": "Photosynthesis mainly occurs in which plant structure?", "options": ["Roots", "Stem", "Leaves", "Flower"], "answer": "Leaves"},
-    {"question": "What is the main pigment responsible for green color in plants?", "options": ["Carotene", "Anthocyanin", "Chlorophyll", "Xanthophyll"], "answer": "Chlorophyll"},
-    {"question": "In photosynthesis, which molecule acts as the final electron acceptor?", "options": ["NADP+", "Oxygen", "Water", "ATP"], "answer": "NADP+"},
-    {"question": "What process converts light energy into chemical energy?", "options": ["Calvin Cycle", "Chemiosmosis", "Light Reactions", "Glycolysis"], "answer": "Light Reactions"},
-    {"question": "What is the primary product of photosynthesis?", "options": ["Glucose", "Oxygen", "Water", "ATP"], "answer": "Glucose"},
-    {"question": "What gas is absorbed by plants during photosynthesis?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"], "answer": "Carbon Dioxide"},
-    {"question": "What is the energy currency of cells?", "options": ["NADPH", "ATP", "Glucose", "FADH2"], "answer": "ATP"},
-    {"question": "What are the main stages of photosynthesis?", "options": ["Glycolysis and Krebs Cycle", "Light Reactions and Calvin Cycle", "ETC and Chemiosmosis", "Fermentation and Glycolysis"], "answer": "Light Reactions and Calvin Cycle"},
-    {"question": "Where in the cell does the Calvin Cycle occur?", "options": ["Thylakoid membrane", "Stroma", "Chloroplast membrane", "Cytoplasm"], "answer": "Stroma"},
-    {"question": "Which process in photosynthesis generates ATP?", "options": ["Photolysis", "Chemiosmosis", "Krebs Cycle", "Fermentation"], "answer": "Chemiosmosis"},
-    {"question": "What does 'C3' refer to in photosynthesis?", "options": ["Three-carbon compounds", "Three stages", "Chlorophyll type", "Three pigments"], "answer": "Three-carbon compounds"},
-    {"question": "CAM plants close their stomata during the _____?", "options": ["Night", "Day", "Afternoon", "Rainy Season"], "answer": "Day"},
-    {"question": "Where does cellular respiration mainly occur?", "options": ["Chloroplast", "Ribosome", "Mitochondria", "Nucleus"], "answer": "Mitochondria"},
-    {"question": "What process is the first step of aerobic respiration?", "options": ["Krebs Cycle", "Glycolysis", "Oxidative Phosphorylation", "Calvin Cycle"], "answer": "Glycolysis"},
-    {"question": "Which of the following is a byproduct of fermentation?", "options": ["Oxygen", "Lactic Acid", "Glucose", "ATP"], "answer": "Lactic Acid"},
-    {"question": "What type of organisms undergo photosynthesis?", "options": ["Animals", "Bacteria", "Autotrophs", "Fungi"], "answer": "Autotrophs"},
-    {"question": "What molecule is broken down to release energy in cells?", "options": ["Oxygen", "Water", "ATP", "NADPH"], "answer": "ATP"},
-    {"question": "Oxidation involves the ____?", "options": ["Gain of electrons", "Loss of electrons", "Gain of hydrogen", "Gain of oxygen"], "answer": "Loss of electrons"},
-    {"question": "Which of the following is NOT part of an ATP molecule?", "options": ["Adenine", "Ribose", "Thymine", "Phosphate"], "answer": "Thymine"},
-    {"question": "The electron transport chain is part of which process?", "options": ["Photosynthesis", "Glycolysis", "Cellular Respiration", "Fermentation"], "answer": "Cellular Respiration"},
-    {"question": "Which molecule stores energy within its chemical bonds for cells?", "options": ["Carbon Dioxide", "ATP", "Water", "Nitrogen"], "answer": "ATP"},
-    {"question": "During what cycle are carbon atoms fixed to produce carbohydrates?", "options": ["Krebs Cycle", "Calvin Cycle", "Glycolysis", "Citric Acid Cycle"], "answer": "Calvin Cycle"},
-    {"question": "The light reaction in photosynthesis takes place in the?", "options": ["Stroma", "Thylakoid membrane", "Chloroplast membrane", "Mesophyll cells"], "answer": "Thylakoid membrane"},
+{
+  "quiz": [
     {
-        "question": "What type of molecules primarily made up Earth's atmosphere during the first two billion years?",
-        "options": ["Oxygen and nitrogen", "Carbon dioxide and methane", "Molecular hydrogen and ammonia", "Methane and oxygen"],
-        "answer": "Molecular hydrogen and ammonia"
-      },
-      {
-        "question": "Which organism contributed to the significant accumulation of oxygen in Earth's atmosphere?",
-        "options": ["Cyanobacteria", "Mitochondria", "Algae", "Protozoa"],
-        "answer": "Cyanobacteria"
-      },
-      {
-        "question": "What is the primary function of mitochondria in non-photosynthetic tissues?",
-        "options": ["Synthesize glucose", "Generate ATP", "Store calcium ions", "Produce lipids"],
-        "answer": "Generate ATP"
-      },
-      {
-        "question": "The inner mitochondrial membrane contains folds known as:",
-        "options": ["Cristae", "Thylakoids", "Stroma", "Vesicles"],
-        "answer": "Cristae"
-      },
-      {
-        "question": "Where does glycolysis occur within a cell?",
-        "options": ["Mitochondrial matrix", "Cytosol", "Inner mitochondrial membrane", "Nucleus"],
-        "answer": "Cytosol"
-      },
-      {
-        "question": "What molecule is formed at the end of glycolysis?",
-        "options": ["Glucose", "Pyruvate", "Acetate", "Lactate"],
-        "answer": "Pyruvate"
-      },
-      {
-        "question": "Which enzyme catalyzes the decarboxylation of pyruvate?",
-        "options": ["ATP synthase", "Pyruvate dehydrogenase", "Hexokinase", "Lactate dehydrogenase"],
-        "answer": "Pyruvate dehydrogenase"
-      },
-      {
-        "question": "The tricarboxylic acid cycle is also known as:",
-        "options": ["Krebs cycle", "Calvin cycle", "Electron transport chain", "Glycolysis"],
-        "answer": "Krebs cycle"
-      },
-      {
-        "question": "Which coenzymes are primarily produced during the TCA cycle?",
-        "options": ["NADH and FADH2", "ATP and ADP", "NAD+ and FAD", "FADH and NADPH"],
-        "answer": "NADH and FADH2"
-      },
-      {
-        "question": "Which shuttle transfers electrons from NADH into the mitochondria?",
-        "options": ["Electron transport shuttle", "Ubiquinone shuttle", "Malate-aspartate shuttle", "NADPH shuttle"],
-        "answer": "Malate-aspartate shuttle"
-      },
-      {
-        "question": "Where does the electron transport chain occur?",
-        "options": ["Outer mitochondrial membrane", "Inner mitochondrial membrane", "Matrix", "Cytosol"],
-        "answer": "Inner mitochondrial membrane"
-      },
-      {
-        "question": "What is the role of the ATP synthase enzyme?",
-        "options": ["Breaks down ATP", "Synthesizes ATP", "Transports electrons", "Generates NADH"],
-        "answer": "Synthesizes ATP"
-      },
-      {
-        "question": "Who postulated the chemiosmotic theory?",
-        "options": ["Hans Krebs", "Efraim Racker", "Peter Mitchell", "Albert Szent-Györgyi"],
-        "answer": "Peter Mitchell"
-      },
-      {
-        "question": "The proton gradient across the mitochondrial membrane is created by:",
-        "options": ["ATP synthase", "Electron transport chain", "NADH formation", "Cristae formation"],
-        "answer": "Electron transport chain"
-      },
-      {
-        "question": "What molecule acts as the final electron acceptor in the electron transport chain?",
-        "options": ["Glucose", "NADH", "Oxygen", "Water"],
-        "answer": "Oxygen"
-      },
-      {
-        "question": "The process of ATP synthesis through a proton gradient is termed:",
-        "options": ["Photophosphorylation", "Oxidative phosphorylation", "Chemiosmotic synthesis", "Glycolysis"],
-        "answer": "Oxidative phosphorylation"
-      },
-      {
-        "question": "Which component in ATP synthase rotates to facilitate ATP production?",
-        "options": ["α subunit", "β subunit", "γ subunit", "Fo channel"],
-        "answer": "γ subunit"
-      },
-      {
-        "question": "What structure is responsible for ATP synthesis according to the Binding Change Mechanism?",
-        "options": ["Cristae", "F0 head", "ATP synthase", "Pyruvate dehydrogenase"],
-        "answer": "ATP synthase"
-      },
-      {
-        "question": "What are peroxisomes primarily involved in?",
-        "options": ["Protein synthesis", "Fatty acid oxidation", "DNA replication", "Electron transport"],
-        "answer": "Fatty acid oxidation"
-      },
-      {
-        "question": "What disease results from defective mitochondrial function?",
-        "options": ["Alpers' disease", "Cystic fibrosis", "Sickle cell anemia", "Parkinson's disease"],
-        "answer": "Alpers' disease"
-      },
-      {
-        "question": "What is the major symptom of Zellweger syndrome?",
-        "options": ["Poor vision", "Muscle weakness", "Enlarged liver", "Cardiac arrest"],
-        "answer": "Enlarged liver"
-      },
-      {
-        "question": "In glycolysis, glucose is converted into:",
-        "options": ["Pyruvate", "Acetyl-CoA", "Lactate", "Glucose-6-phosphate"],
-        "answer": "Pyruvate"
-      },
-      {
-        "question": "What are the two main stages of oxidative metabolism in the mitochondrion?",
-        "options": ["Glycolysis and Citric Acid Cycle", "Electron Transport and Glycolysis", "TCA Cycle and Electron Transport", "Oxidative phosphorylation and Glycolysis"],
-        "answer": "TCA Cycle and Electron Transport"
-      },
-      {
-        "question": "Where does the citric acid cycle take place in the mitochondria?",
-        "options": ["Inner membrane", "Outer membrane", "Intermembrane space", "Matrix"],
-        "answer": "Matrix"
-      },
-      {
-        "question": "Which of the following is not a component of the electron transport chain?",
-        "options": ["Flavoproteins", "Cytochromes", "ATP synthase", "Ubiquinone"],
-        "answer": "ATP synthase"
-      },
-      {
-        "question": "How is ATP produced in mitochondria?",
-        "options": ["Directly by glucose breakdown", "Via proton gradient", "By DNA replication", "By electron donation"],
-        "answer": "Via proton gradient"
-      },
-      {
-        "question": "Which ion is involved in creating the proton-motive force?",
-        "options": ["Sodium", "Calcium", "Hydrogen", "Magnesium"],
-        "answer": "Hydrogen"
-      },
-      {
-        "question": "What structural feature allows mitochondria to have their own replication?",
-        "options": ["They have a double membrane", "They contain mitochondrial DNA", "They have ribosomes", "They undergo binary fission"],
-        "answer": "They contain mitochondrial DNA"
-      },
-      {
-        "question": "How many types of electron carriers are involved in the electron transport chain?",
-        "options": ["Two", "Three", "Four", "Five"],
-        "answer": "Five"
-      },
-      {
-        "question": "Which complex in the electron transport chain reduces oxygen to form water?",
-        "options": ["Complex I", "Complex II", "Complex III", "Complex IV"],
-        "answer": "Complex IV"
-      },
-      {
-        "question": "What is the function of cytochrome c oxidase?",
-        "options": ["To donate electrons to FADH2", "To transport NADH", "To reduce oxygen", "To generate ATP"],
-        "answer": "To reduce oxygen"
-      },
-      {
-        "question": "Which of the following best describes oxidative phosphorylation?",
-        "options": ["Conversion of ATP to ADP", "Direct glucose oxidation", "Electron transfer and ATP formation", "Reduction of cytochromes"],
-        "answer": "Electron transfer and ATP formation"
-      },
-      {
-        "question": "Which of these is an electron carrier that moves electrons between complexes?",
-        "options": ["Cytochrome b", "Ubiquinone", "FADH2", "NAD+"],
-        "answer": "Ubiquinone"
-      },
-      {
-        "question": "How do protons return to the mitochondrial matrix to generate ATP?",
-        "options": ["Through complex I", "Direct diffusion", "ATP synthase channel", "Oxidative phosphorylation"],
-        "answer": "ATP synthase channel"
-      },
-      {
-        "question": "What type of enzyme is ATP synthase?",
-        "options": ["Hydrolase", "Transferase", "Synthase", "Ligase"],
-        "answer": "Synthase"
-      },
-      {
-        "question": "What is the primary product of cellular respiration?",
-        "options": ["Oxygen", "Water", "ATP", "Carbon dioxide"],
-        "answer": "ATP"
-      },
-      {
-        "question": "What is considered the structural unit of life?",
-        "options": ["Molecule", "Cell", "Organ", "Nucleus"],
-        "answer": "Cell"
-      },
-      {
-        "question": "Who first observed cells in a slice of cork?",
-        "options": ["Schwann", "Hooke", "Schleiden", "Virchow"],
-        "answer": "Hooke"
-      },
-      {
-        "question": "Who stated that all plants are composed of cells?",
-        "options": ["Hooke", "Schwann", "Schleiden", "Dujardin"],
-        "answer": "Schleiden"
-      },
-      {
-        "question": "What does cell theory state?",
-        "options": [
-          "Cells form by spontaneous generation",
-          "All organisms are composed of one or more cells",
-          "Cells do not contain genetic material",
-          "Cells do not divide"
-        ],
-        "answer": "All organisms are composed of one or more cells"
-      },
-      {
-        "question": "Who developed the concept of HeLa cells?",
-        "options": ["Robert Hooke", "George and Martha Gey", "Schwann and Virchow", "Henrietta Lacks"],
-        "answer": "George and Martha Gey"
-      },
-      {
-        "question": "What ability do cells possess that allows them to produce more of themselves?",
-        "options": ["Adaptation", "Reproduction", "Transcription", "Diffusion"],
-        "answer": "Reproduction"
-      },
-      {
-        "question": "How do cells acquire and utilize energy?",
-        "options": ["Sunlight and glucose", "Oxygen and water", "Only sunlight", "Only glucose"],
-        "answer": "Sunlight and glucose"
-      },
-      {
-        "question": "What term describes a cell’s ability to respond to stimuli?",
-        "options": ["Reactivity", "Self-regulation", "Stimulation", "Response"],
-        "answer": "Response"
-      },
-      {
-        "question": "Which of the following is NOT a characteristic of eukaryotic cells?",
-        "options": ["Presence of organelles", "Complex structure", "Absence of nucleus", "Larger size compared to prokaryotes"],
-        "answer": "Absence of nucleus"
-      },
-      {
-        "question": "What are the two fundamental classes of cells?",
-        "options": ["Animal and Plant", "Prokaryotic and Eukaryotic", "Bacterial and Fungal", "Unicellular and Multicellular"],
-        "answer": "Prokaryotic and Eukaryotic"
-      },
-      {
-        "question": "What is the function of the nucleus?",
-        "options": [
-          "Protein synthesis",
-          "Energy production",
-          "Control center of cell activity",
-          "Transporting materials"
-        ],
-        "answer": "Control center of cell activity"
-      },
-      {
-        "question": "The nucleolus is primarily responsible for:",
-        "options": ["DNA replication", "RNA transcription", "Ribosome assembly", "Cell division"],
-        "answer": "Ribosome assembly"
-      },
-      {
-        "question": "Which cellular structure is described as the 'powerhouse' of the cell?",
-        "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
-        "answer": "Mitochondria"
-      },
-      {
-        "question": "What component of the cell wall contains cellulose fibers arranged in a network?",
-        "options": ["Middle lamella", "Primary wall", "Secondary wall", "Vacuolar membrane"],
-        "answer": "Primary wall"
-      },
-      {
-        "question": "Which cellular organelle contains digestive enzymes?",
-        "options": ["Lysosomes", "Endoplasmic reticulum", "Golgi apparatus", "Mitochondria"],
-        "answer": "Lysosomes"
-      },
-      {
-        "question": "The primary function of the plasma membrane is:",
-        "options": [
-          "Energy production",
-          "Control of molecular traffic",
-          "Protein synthesis",
-          "Cell division"
-        ],
-        "answer": "Control of molecular traffic"
-      },
-      {
-        "question": "Which of the following describes the plasma membrane's structure?",
-        "options": [
-          "Single layer of carbohydrates",
-          "Double layer of phospholipids",
-          "Single layer of proteins",
-          "Double layer of glucose molecules"
-        ],
-        "answer": "Double layer of phospholipids"
-      },
-      {
-        "question": "What process involves the transport of substances into the cell?",
-        "options": ["Exocytosis", "Endocytosis", "Osmosis", "Diffusion"],
-        "answer": "Endocytosis"
-      },
-      {
-        "question": "What is the primary component of the middle lamella?",
-        "options": ["Calcium", "Cellulose", "Pectins", "Proteins"],
-        "answer": "Pectins"
-      },
-      {
-        "question": "What determines the rate and degree of passage through the plasma membrane?",
-        "options": ["Temperature only", "Concentration gradient only", "Membrane structure", "Pressure only"],
-        "answer": "Membrane structure"
-      },
-      {
-        "question": "What term describes the passive spreading of a substance through random molecular motion?",
-        "options": ["Diffusion", "Osmosis", "Filtration", "Concentration"],
-        "answer": "Diffusion"
-      },
-      {
-        "question": "What type of solution has a higher solute concentration outside the cell, causing cell shrinkage?",
-        "options": ["Hypotonic", "Hypertonic", "Isotonic", "Neutral"],
-        "answer": "Hypertonic"
-      },
-      {
-        "question": "What structure supports and shapes the cell by anchoring the cytoskeleton?",
-        "options": ["Mitochondria", "Plasma membrane", "Nucleus", "Vacuole"],
-        "answer": "Plasma membrane"
-      },
-      {
-        "question": "Which factor does NOT influence the rate of diffusion?",
-        "options": ["Temperature", "Pressure", "Color", "Concentration"],
-        "answer": "Color"
-      },
-      {
-        "question": "What type of membrane allows only certain substances to pass through?",
-        "options": ["Permeable", "Impermeable", "Semi-permeable", "Selective permeable"],
-        "answer": "Selective permeable"
-      },
-      {
-        "question": "What describes the movement of water through a selectively permeable membrane?",
-        "options": ["Osmosis", "Diffusion", "Filtration", "Absorption"],
-        "answer": "Osmosis"
-      },
-      {
-        "question": "Which cellular structure is responsible for synthesizing proteins?",
-        "options": ["Mitochondria", "Ribosomes", "Golgi apparatus", "Nucleus"],
-        "answer": "Ribosomes"
-      },
-      {
-        "question": "Which type of transport does NOT require energy?",
-        "options": ["Active transport", "Exocytosis", "Passive diffusion", "Endocytosis"],
-        "answer": "Passive diffusion"
-      },
-      {
-        "question": "What type of ion channel malfunction leads to cystic fibrosis?",
-        "options": ["Sodium", "Potassium", "Chloride", "Calcium"],
-        "answer": "Chloride"
-      },
-      {
-        "question": "What happens to a cell in a hypotonic solution?",
-        "options": ["It shrinks", "It bursts", "It remains the same", "It dissolves"],
-        "answer": "It bursts"
-      },
-      {
-        "question": "What are large molecules transported into the cell by?",
-        "options": ["Passive diffusion", "Osmosis", "Endocytosis", "Exocytosis"],
-        "answer": "Endocytosis"
-      },
-      {
-        "question": "What type of membrane potential is essential for nerve impulses?",
-        "options": ["Stable", "Positive", "Negative", "Variable"],
-        "answer": "Negative"
-      },
-      {
-        "question": "Which of the following channels connect cytoplasm between adjacent cells?",
-        "options": ["Ion channels", "Sodium channels", "Gap junctions", "Voltage-gated channels"],
-        "answer": "Gap junctions"
-      },
-      {
-        "question": "What type of ion channel dysfunction can cause epilepsy?",
-        "options": ["Sodium channels", "Potassium channels", "Calcium channels", "Chloride channels"],
-        "answer": "Sodium channels"
-      },
-      {
-        "question": "What part of the neuron receives electrical signals?",
-        "options": ["Axon", "Dendrite", "Cell body", "Synapse"],
-        "answer": "Dendrite"
-      },
-      {
-        "question": "What structure transmits nerve impulses outward from the cell body?",
-        "options": ["Dendrite", "Axon", "Synapse", "Cell body"],
-        "answer": "Axon"
-      },
-      {
-        "question": "What happens when the middle lamella dissolves?",
-        "options": [
-          "Cells divide",
-          "Cells become isolated",
-          "Cells form a vacuole",
-          "Cells produce enzymes"
-        ],
-        "answer": "Cells become isolated"
-      },
-      {
-        "question": "What is the primary function of chloroplasts?",
-        "options": ["Energy production", "Protein synthesis", "Photosynthesis", "Signal transmission"],
-        "answer": "Photosynthesis"
-      },
-      {
-        "question": "In which type of cell can plastids be found?",
-        "options": ["Animal cells", "Bacterial cells", "Plant cells", "Fungal cells"],
-        "answer": "Plant cells"
-      },
-      {
-        "question": "Which of these describes the outermost layer of a plant cell?",
-        "options": ["Nucleus", "Plasma membrane", "Cell wall", "Vacuole"],
-        "answer": "Cell wall"
-      },
-      {
-        "question": "Which organelles are NOT part of the endomembrane system?",
-        "options": ["Mitochondria", "Nuclear envelope", "Lysosomes", "Endoplasmic reticulum"],
-        "answer": "Mitochondria"
-      },
-      {
-        "question": "What is the main function of the endomembrane system?",
-        "options": [
-          "DNA replication",
-          "Protein and lipid modification, packaging, and transport",
-          "Energy production",
-          "Genetic information storage"
-        ],
-        "answer": "Protein and lipid modification, packaging, and transport"
-      },
-      {
-        "question": "What is the primary role of the rough endoplasmic reticulum?",
-        "options": ["Lipid synthesis", "Protein modification", "Calcium storage", "Detoxification"],
-        "answer": "Protein modification"
-      },
-      {
-        "question": "The smooth endoplasmic reticulum is responsible for all EXCEPT:",
-        "options": ["Lipid synthesis", "Detoxification", "Protein synthesis", "Calcium storage"],
-        "answer": "Protein synthesis"
-      },
-      {
-        "question": "Which specialized smooth ER is involved in calcium storage in muscle cells?",
-        "options": ["Transitional ER", "Rough ER", "Sarcoplasmic reticulum", "Golgi apparatus"],
-        "answer": "Sarcoplasmic reticulum"
-      },
-      {
-        "question": "What is the function of the Golgi apparatus?",
-        "options": [
-          "Protein synthesis",
-          "Sorting, tagging, packaging, and distribution",
-          "Calcium storage",
-          "Energy production"
-        ],
-        "answer": "Sorting, tagging, packaging, and distribution"
-      },
-      {
-        "question": "The cis face of the Golgi apparatus is where:",
-        "options": [
-          "Vesicles are shipped to the plasma membrane",
-          "Vesicles arrive from the ER",
-          "Proteins are broken down",
-          "Lipids are synthesized"
-        ],
-        "answer": "Vesicles arrive from the ER"
-      },
-      {
-        "question": "What process involves the breakdown and recycling of old cell parts?",
-        "options": ["Phagocytosis", "Endocytosis", "Lysosomal digestion", "Exocytosis"],
-        "answer": "Lysosomal digestion"
-      },
-      {
-        "question": "The vacuole in plant cells is similar in function to which organelle in animal cells?",
-        "options": ["Nucleus", "Lysosome", "Mitochondria", "Golgi apparatus"],
-        "answer": "Lysosome"
-      },
-      {
-        "question": "What molecule is produced as a by-product in peroxisomes?",
-        "options": ["Oxygen", "Carbon dioxide", "Hydrogen peroxide", "Water"],
-        "answer": "Hydrogen peroxide"
-      },
-      {
-        "question": "What process in cellular respiration generates ATP by substrate-level phosphorylation?",
-        "options": ["Glycolysis", "Electron transport chain", "Fermentation", "Oxidative phosphorylation"],
-        "answer": "Glycolysis"
-      },
-      {
-        "question": "Which of the following is the final electron acceptor in the electron transport chain?",
-        "options": ["Water", "NADH", "Oxygen", "Carbon dioxide"],
-        "answer": "Oxygen"
-      },
-      {
-        "question": "In which stage of cellular respiration is the majority of ATP generated?",
-        "options": ["Glycolysis", "Fermentation", "Citric acid cycle", "Oxidative phosphorylation"],
-        "answer": "Oxidative phosphorylation"
-      },
-      {
-        "question": "Which electron carrier is reduced during glycolysis?",
-        "options": ["NAD+", "FAD", "ATP", "ADP"],
-        "answer": "NAD+"
-      },
-      {
-        "question": "During glycolysis, one glucose molecule is broken down into:",
-        "options": ["Two CO2", "Two ATP", "Two pyruvate", "Two NAD+"],
-        "answer": "Two pyruvate"
-      },
-      {
-        "question": "Which process uses NADH and FADH2 to generate ATP through a proton gradient?",
-        "options": ["Citric acid cycle", "Fermentation", "Electron transport chain", "Glycolysis"],
-        "answer": "Electron transport chain"
-      },
-      {
-        "question": "In lactic acid fermentation, NADH transfers its electrons to:",
-        "options": ["Ethanol", "Oxygen", "Lactate", "Acetaldehyde"],
-        "answer": "Lactate"
-      },
-      {
-        "question": "What is the primary purpose of fermentation?",
-        "options": [
-          "Produce ATP efficiently",
-          "Recycle NAD+ for glycolysis",
-          "Generate oxygen",
-          "Release CO2"
-        ],
-        "answer": "Recycle NAD+ for glycolysis"
-      },
-      {
-        "question": "Which structure contains thylakoids and grana for photosynthesis?",
-        "options": ["Mitochondria", "Chloroplast", "Ribosome", "Peroxisome"],
-        "answer": "Chloroplast"
-      },
-      {
-        "question": "Photosynthetic organisms produce which gas as a byproduct?",
-        "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Methane"],
-        "answer": "Oxygen"
-      },
-      {
-        "question": "In photosynthesis, the light-dependent reactions occur in the:",
-        "options": ["Stroma", "Thylakoid membrane", "Mitochondrial matrix", "Nucleus"],
-        "answer": "Thylakoid membrane"
-      },
-      {
-        "question": "What is the main product of the Calvin cycle?",
-        "options": ["ATP", "Oxygen", "NADPH", "Glucose"],
-        "answer": "Glucose"
-      },
-      {
-        "question": "What term describes organisms that cannot fix carbon dioxide into organic compounds?",
-        "options": ["Photoautotrophs", "Chemoautotrophs", "Heterotrophs", "Prokaryotes"],
-        "answer": "Heterotrophs"
-      },
-      {
-        "question": "What molecule serves as the primary electron donor in the light-dependent reactions of photosynthesis?",
-        "options": ["Water", "Carbon dioxide", "Oxygen", "NADH"],
-        "answer": "Water"
-      },
-      {
-        "question": "What role does carbon fixation play in photosynthesis?",
-        "options": [
-          "It produces oxygen gas",
-          "It incorporates inorganic carbon into organic molecules",
-          "It releases energy",
-          "It stores sunlight as heat"
-        ],
-        "answer": "It incorporates inorganic carbon into organic molecules"
-      },
-      {
-        "question": "Which cell structure regulates cell pH and supports enzyme function?",
-        "options": ["Mitochondria", "Cytoskeleton", "Golgi apparatus", "Peroxisome"],
-        "answer": "Peroxisome"
-      },
-      {
-        "question": "What process requires oxygen directly in cellular respiration?",
-        "options": [
-          "Citric acid cycle",
-          "Electron transport chain",
-          "Glycolysis",
-          "Fermentation"
-        ],
-        "answer": "Electron transport chain"
-      },
-      {
-        "question": "How many net ATP molecules are produced during glycolysis per glucose molecule?",
-        "options": ["4", "2", "1", "6"],
-        "answer": "2"
-      },
-      {
-        "question": "In the citric acid cycle, which molecule is generated along with ATP and electron carriers?",
-        "options": ["Oxygen", "Carbon dioxide", "Glucose", "Water"],
-        "answer": "Carbon dioxide"
-      },
-      {
-        "question": "What molecule is regenerated to maintain the continuation of the citric acid cycle?",
-        "options": ["ATP", "Oxaloacetate", "Glucose", "Pyruvate"],
-        "answer": "Oxaloacetate"
-      },
-      {
-        "question": "During oxidative phosphorylation, protons are pumped across which membrane?",
-        "options": [
-          "Outer mitochondrial membrane",
-          "Nuclear membrane",
-          "Inner mitochondrial membrane",
-          "Plasma membrane"
-        ],
-        "answer": "Inner mitochondrial membrane"
-      },
-      {
-        "question": "Which type of organism performs lactic acid fermentation?",
-        "options": ["Plants", "Yeast", "Bacteria", "Animals"],
-        "answer": "Animals"
-      },
-      {
-        "question": "Which enzyme produces ATP by chemiosmosis?",
-        "options": ["ATP synthase", "Rubisco", "Hexokinase", "NADH dehydrogenase"],
-        "answer": "ATP synthase"
-      },
-      {
-        "question": "Which type of fat cells in hibernating mammals use the proton gradient for heat generation?",
-        "options": ["White fat cells", "Brown fat cells", "Visceral fat cells", "Yellow fat cells"],
-        "answer": "Brown fat cells"
-      },
-      {
-        "question": "The maximum ATP yield per glucose molecule is estimated at:",
-        "options": ["36 ATP", "30-32 ATP", "40 ATP", "20-22 ATP"],
-        "answer": "30-32 ATP"
-      },
-      {
-        "question": "Which organisms rely on anaerobic cellular respiration?",
-        "options": ["Humans", "Prokaryotes in low-oxygen environments", "Plants", "Fish"],
-        "answer": "Prokaryotes in low-oxygen environments"
-      },
-      {
-        "question": "What molecule is the electron acceptor in alcoholic fermentation?",
-        "options": ["Oxygen", "Acetaldehyde", "Lactate", "Water"],
-        "answer": "Acetaldehyde"
-      },
-      {
-        "question": "In anaerobic respiration, which molecule may replace oxygen as the final electron acceptor?",
-        "options": ["Sulfate", "Water", "Ethanol", "Carbon monoxide"],
-        "answer": "Sulfate"
-      },
-      {
-        "question": "What is the primary function of the cell membrane?",
-        "options": [
-            "To produce energy",
-            "To store nutrients",
-            "To control what enters and exits the cell",
-            "To provide genetic information"
-        ],
-        "answer": "To control what enters and exits the cell"
+      "question": "What is the SI unit of force?",
+      "choices": ["Newton", "Joule", "Pascal", "Watt"],
+      "correctAnswer": "Newton"
     },
     {
-        "question": "What does compartmentalization allow within a cell?",
-        "options": [
-            "Random collisions of molecules",
-            "Unrestricted exchange of molecules",
-            "Specialized activities without interference",
-            "Permanent storage of waste"
-        ],
-        "answer": "Specialized activities without interference"
+      "question": "Which of the following is a vector quantity?",
+      "choices": ["Mass", "Speed", "Force", "Temperature"],
+      "correctAnswer": "Force"
     },
     {
-        "question": "Which model describes the structure of the cell membrane?",
-        "options": [
-            "Lipid Layer Model",
-            "Fluid Mosaic Model",
-            "Phospholipid Bilayer Model",
-            "Double Membrane Model"
-        ],
-        "answer": "Fluid Mosaic Model"
+      "question": "What does Newton's First Law of Motion state?",
+      "choices": [
+        "Force is equal to mass times acceleration.",
+        "Every action has an equal and opposite reaction.",
+        "An object remains at rest or in motion unless acted upon by a force.",
+        "Acceleration is proportional to force."
+      ],
+      "correctAnswer": "An object remains at rest or in motion unless acted upon by a force."
     },
     {
-        "question": "What characteristic of the phospholipid bilayer contributes to its selective permeability?",
-        "options": [
-            "Presence of hydrophilic tails",
-            "Presence of polar heads and non-polar tails",
-            "Random distribution of proteins",
-            "Carbohydrate presence in the bilayer"
-        ],
-        "answer": "Presence of polar heads and non-polar tails"
+      "question": "The rate of change of velocity is known as:",
+      "choices": ["Speed", "Acceleration", "Momentum", "Force"],
+      "correctAnswer": "Acceleration"
     },
     {
-        "question": "Which of these statements best describes the fluidity of membranes?",
-        "options": [
-            "Membranes are static and rigid",
-            "Lipids and proteins drift laterally",
-            "Proteins flip-flop frequently across the membrane",
-            "Lipid movement is extremely restricted"
-        ],
-        "answer": "Lipids and proteins drift laterally"
+      "question": "What is the unit of energy in the SI system?",
+      "choices": ["Watt", "Newton", "Joule", "Volt"],
+      "correctAnswer": "Joule"
     },
     {
-        "question": "Integral proteins in the cell membrane serve which of the following functions?",
-        "options": [
-            "Only as receptors for ligands",
-            "Providing structural support only",
-            "Transporting substances across the membrane",
-            "Attaching carbohydrates only"
-        ],
-        "answer": "Transporting substances across the membrane"
+      "question": "Which of these is a non-contact force?",
+      "choices": ["Friction", "Tension", "Gravity", "Normal Force"],
+      "correctAnswer": "Gravity"
     },
     {
-        "question": "How do hydrophilic substances typically pass through the cell membrane?",
-        "options": [
-            "Via simple diffusion",
-            "Through hydrophobic channels",
-            "Through transport proteins",
-            "By dissolving in the lipid bilayer"
-        ],
-        "answer": "Through transport proteins"
+      "question": "What is the value of acceleration due to gravity on Earth?",
+      "choices": ["8.9 m/s²", "10.2 m/s²", "9.8 m/s²", "9.5 m/s²"],
+      "correctAnswer": "9.8 m/s²"
     },
     {
-        "question": "What is osmosis?",
-        "options": [
-            "Diffusion of solutes across a membrane",
-            "Passive movement of water across a selectively permeable membrane",
-            "Active transport of ions across a membrane",
-            "Energy-dependent movement of lipids"
-        ],
-        "answer": "Passive movement of water across a selectively permeable membrane"
+      "question": "Which of the following quantities has both magnitude and direction?",
+      "choices": ["Distance", "Velocity", "Speed", "Time"],
+      "correctAnswer": "Velocity"
     },
     {
-        "question": "In a hypertonic solution, what happens to a cell?",
-        "options": [
-            "It gains water",
-            "It loses water",
-            "No change occurs",
-            "The cell bursts"
-        ],
-        "answer": "It loses water"
+      "question": "The inertia of an object depends on:",
+      "choices": ["Its shape", "Its velocity", "Its mass", "Its volume"],
+      "correctAnswer": "Its mass"
     },
     {
-        "question": "What is the function of channel proteins in facilitated diffusion?",
-        "options": [
-            "To actively transport molecules",
-            "To allow passage of hydrophilic substances",
-            "To embed lipophilic substances",
-            "To move lipids within the membrane"
-        ],
-        "answer": "To allow passage of hydrophilic substances"
+      "question": "What is the unit of power?",
+      "choices": ["Joule", "Newton", "Watt", "Pascal"],
+      "correctAnswer": "Watt"
     },
     {
-        "question": "What is the role of an electrogenic pump?",
-        "options": [
-            "Generating voltage across a membrane",
-            "Preventing ion movement across the membrane",
-            "Binding specifically to water molecules",
-            "Providing a static charge on the membrane"
-        ],
-        "answer": "Generating voltage across a membrane"
+      "question": "What is the work done if a force of 10 N displaces an object by 5 m in the direction of force?",
+      "choices": ["50 J", "15 J", "5 J", "25 J"],
+      "correctAnswer": "50 J"
     },
     {
-        "question": "What are the two forces that make up the electrochemical gradient?",
-        "options": [
-            "Osmotic force and kinetic energy",
-            "Electrical force and chemical concentration gradient",
-            "Electrical force and osmotic pressure",
-            "Kinetic energy and potential energy"
-        ],
-        "answer": "Electrical force and chemical concentration gradient"
+      "question": "The momentum of an object is the product of:",
+      "choices": [
+        "Force and time",
+        "Mass and velocity",
+        "Mass and acceleration",
+        "Velocity and displacement"
+      ],
+      "correctAnswer": "Mass and velocity"
     },
     {
-        "question": "What is cotransport in membrane transport?",
-        "options": [
-            "When two molecules cross independently",
-            "Active transport driving the passive transport of another molecule",
-            "Bulk movement of ions across the membrane",
-            "The passive transport of a molecule alone"
-        ],
-        "answer": "Active transport driving the passive transport of another molecule"
+      "question": "If no external force acts on a system, its total momentum remains:",
+      "choices": ["Zero", "Constant", "Increasing", "Decreasing"],
+      "correctAnswer": "Constant"
     },
     {
-        "question": "What process is responsible for the bulk export of materials from cells?",
-        "options": [
-            "Osmosis",
-            "Endocytosis",
-            "Exocytosis",
-            "Simple diffusion"
-        ],
-        "answer": "Exocytosis"
+      "question": "Frictional force always acts:",
+      "choices": [
+        "In the direction of motion",
+        "Opposite to the direction of motion",
+        "Perpendicular to motion",
+        "Along the force applied"
+      ],
+      "correctAnswer": "Opposite to the direction of motion"
     },
     {
-        "question": "During which form of endocytosis does the cell engulf fluid substances?",
-        "options": [
-            "Phagocytosis",
-            "Exocytosis",
-            "Pinocytosis",
-            "Active transport"
-        ],
-        "answer": "Pinocytosis"
+      "question": "Energy possessed by a body due to its motion is called:",
+      "choices": [
+        "Potential Energy",
+        "Chemical Energy",
+        "Kinetic Energy",
+        "Thermal Energy"
+      ],
+      "correctAnswer": "Kinetic Energy"
     },
     {
-        "question": "Which type of transport requires energy to move substances against a gradient?",
-        "options": [
-            "Simple diffusion",
-            "Facilitated diffusion",
-            "Active transport",
-            "Bulk flow"
-        ],
-        "answer": "Active transport"
+      "question": "What does the slope of a velocity-time graph represent?",
+      "choices": ["Speed", "Displacement", "Acceleration", "Momentum"],
+      "correctAnswer": "Acceleration"
     },
     {
-        "question": "What function do carbohydrates serve in cell-cell recognition?",
-        "options": [
-            "Providing structure",
-            "Facilitating diffusion",
-            "Binding cells together",
-            "Recognizing and binding to other cells"
-        ],
-        "answer": "Recognizing and binding to other cells"
+      "question": "A body at rest has:",
+      "choices": [
+        "Zero inertia",
+        "Maximum energy",
+        "Zero velocity",
+        "Maximum momentum"
+      ],
+      "correctAnswer": "Zero velocity"
+    },
+    {
+      "question": "The force required to stop a moving object depends on:",
+      "choices": [
+        "Its velocity only",
+        "Its mass only",
+        "Its mass and velocity",
+        "Its shape"
+      ],
+      "correctAnswer": "Its mass and velocity"
+    },
+    {
+      "question": "Which law of motion explains the launch of rockets?",
+      "choices": ["First Law", "Second Law", "Third Law", "Law of Gravitation"],
+      "correctAnswer": "Third Law"
+    },
+    {
+      "question": "What is the SI unit of pressure?",
+      "choices": ["Pascal", "Newton", "Watt", "Joule"],
+      "correctAnswer": "Pascal"
+    },
+    {
+      "question": "A freely falling object experiences:",
+      "choices": [
+        "Constant speed",
+        "Constant acceleration",
+        "Zero acceleration",
+        "Increasing mass"
+      ],
+      "correctAnswer": "Constant acceleration"
+    },
+    {
+      "question": "The property of a body to resist changes in motion is called:",
+      "choices": ["Momentum", "Inertia", "Energy", "Force"],
+      "correctAnswer": "Inertia"
+    },
+    {
+      "question": "Work is said to be done when:",
+      "choices": [
+        "There is force but no displacement.",
+        "There is displacement in the direction of the force.",
+        "Force is applied but no displacement occurs.",
+        "There is no force."
+      ],
+      "correctAnswer": "There is displacement in the direction of the force."
+    },
+    {
+      "question": "Which of the following has the greatest inertia?",
+      "choices": ["A feather", "A car", "A ball", "A bicycle"],
+      "correctAnswer": "A car"
+    },
+    {
+      "question": "What type of energy does a stretched spring possess?",
+      "choices": [
+        "Kinetic energy",
+        "Thermal energy",
+        "Potential energy",
+        "Chemical energy"
+      ],
+      "correctAnswer": "Potential energy"
+    },
+    {
+      "question": "A pendulum swings due to the conversion of:",
+      "choices": [
+        "Kinetic to thermal energy",
+        "Kinetic to potential energy",
+        "Potential to kinetic energy",
+        "Chemical to thermal energy"
+      ],
+      "correctAnswer": "Potential to kinetic energy"
+    },
+    {
+      "question": "What is the unit of momentum?",
+      "choices": ["kg·m/s", "Newton", "Joule", "Watt"],
+      "correctAnswer": "kg·m/s"
+    },
+    {
+      "question": "The energy of an object due to its height above the ground is:",
+      "choices": [
+        "Kinetic Energy",
+        "Potential Energy",
+        "Chemical Energy",
+        "Mechanical Energy"
+      ],
+      "correctAnswer": "Potential Energy"
+    },
+    {
+      "question": "Inertia is directly proportional to:",
+      "choices": ["Velocity", "Volume", "Mass", "Density"],
+      "correctAnswer": "Mass"
+    },
+    {
+      "question": "What happens to pressure if the area is reduced while force remains constant?",
+      "choices": ["Increases", "Decreases", "Remains the same", "Becomes zero"],
+      "correctAnswer": "Increases"
     }
-]
+  ]
+}
