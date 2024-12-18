@@ -2,12 +2,12 @@
   {
     "question": "What is the SI unit of force?",
     "options": ["Newton", "Joule", "Pascal", "Watt"],
-    "Answer": "Newton"
+    "answer": "Newton"
   },
   {
     "question": "Which of the following is a vector quantity?",
     "options": ["Mass", "Speed", "Force", "Temperature"],
-    "Answer": "Force"
+    "answer": "Force"
   },
   {
     "question": "What does Newton's First Law of Motion state?",
@@ -17,47 +17,47 @@
       "An object remains at rest or in motion unless acted upon by a force.",
       "Acceleration is proportional to force."
     ],
-    "Answer": "An object remains at rest or in motion unless acted upon by a force."
+    "answer": "An object remains at rest or in motion unless acted upon by a force."
   },
   {
     "question": "The rate of change of velocity is known as:",
     "options": ["Speed", "Acceleration", "Momentum", "Force"],
-    "Answer": "Acceleration"
+    "answer": "Acceleration"
   },
   {
     "question": "What is the unit of energy in the SI system?",
     "options": ["Watt", "Newton", "Joule", "Volt"],
-    "Answer": "Joule"
+    "answer": "Joule"
   },
   {
     "question": "Which of these is a non-contact force?",
     "options": ["Friction", "Tension", "Gravity", "Normal Force"],
-    "Answer": "Gravity"
+    "answer": "Gravity"
   },
   {
     "question": "What is the value of acceleration due to gravity on Earth?",
     "options": ["8.9 m/s²", "10.2 m/s²", "9.8 m/s²", "9.5 m/s²"],
-    "Answer": "9.8 m/s²"
+    "answer": "9.8 m/s²"
   },
   {
     "question": "Which of the following quantities has both magnitude and direction?",
     "options": ["Distance", "Velocity", "Speed", "Time"],
-    "Answer": "Velocity"
+    "answer": "Velocity"
   },
   {
     "question": "The inertia of an object depends on:",
     "options": ["Its shape", "Its velocity", "Its mass", "Its volume"],
-    "Answer": "Its mass"
+    "answer": "Its mass"
   },
   {
     "question": "What is the unit of power?",
     "options": ["Joule", "Newton", "Watt", "Pascal"],
-    "Answer": "Watt"
+    "answer": "Watt"
   },
   {
     "question": "What is the work done if a force of 10 N displaces an object by 5 m in the direction of force?",
     "options": ["50 J", "15 J", "5 J", "25 J"],
-    "Answer": "50 J"
+    "answer": "50 J"
   },
   {
     "question": "The momentum of an object is the product of:",
@@ -67,12 +67,12 @@
       "Mass and acceleration",
       "Velocity and displacement"
     ],
-    "Answer": "Mass and velocity"
+    "answer": "Mass and velocity"
   },
   {
     "question": "If no external force acts on a system, its total momentum remains:",
     "options": ["Zero", "Constant", "Increasing", "Decreasing"],
-    "Answer": "Constant"
+    "answer": "Constant"
   },
   {
     "question": "Frictional force always acts:",
@@ -82,7 +82,7 @@
       "Perpendicular to motion",
       "Along the force applied"
     ],
-    "Answer": "Opposite to the direction of motion"
+    "answer": "Opposite to the direction of motion"
   },
   {
     "question": "Energy possessed by a body due to its motion is called:",
@@ -92,12 +92,12 @@
       "Kinetic Energy",
       "Thermal Energy"
     ],
-    "Answer": "Kinetic Energy"
+    "answer": "Kinetic Energy"
   },
   {
     "question": "What does the slope of a velocity-time graph represent?",
     "options": ["Speed", "Displacement", "Acceleration", "Momentum"],
-    "Answer": "Acceleration"
+    "answer": "Acceleration"
   },
   {
     "question": "A body at rest has:",
@@ -107,7 +107,7 @@
       "Zero velocity",
       "Maximum momentum"
     ],
-    "Answer": "Zero velocity"
+    "answer": "Zero velocity"
   },
   {
     "question": "The force required to stop a moving object depends on:",
@@ -117,17 +117,17 @@
       "Its mass and velocity",
       "Its shape"
     ],
-    "Answer": "Its mass and velocity"
+    "answer": "Its mass and velocity"
   },
   {
     "question": "Which law of motion explains the launch of rockets?",
     "options": ["First Law", "Second Law", "Third Law", "Law of Gravitation"],
-    "Answer": "Third Law"
+    "answer": "Third Law"
   },
   {
     "question": "What is the SI unit of pressure?",
     "options": ["Pascal", "Newton", "Watt", "Joule"],
-    "Answer": "Pascal"
+    "answer": "Pascal"
   },
   {
     "question": "A freely falling object experiences:",
@@ -137,12 +137,12 @@
       "Zero acceleration",
       "Increasing mass"
     ],
-    "Answer": "Constant acceleration"
+    "answer": "Constant acceleration"
   },
   {
     "question": "The property of a body to resist changes in motion is called:",
     "options": ["Momentum", "Inertia", "Energy", "Force"],
-    "Answer": "Inertia"
+    "answer": "Inertia"
   },
   {
     "question": "Work is said to be done when:",
@@ -152,12 +152,12 @@
       "Force is applied but no displacement occurs.",
       "There is no force."
     ],
-    "Answer": "There is displacement in the direction of the force."
+    "answer": "There is displacement in the direction of the force."
   },
   {
     "question": "Which of the following has the greatest inertia?",
     "options": ["A feather", "A car", "A ball", "A bicycle"],
-    "Answer": "A car"
+    "answer": "A car"
   },
   {
     "question": "What type of energy does a stretched spring possess?",
@@ -167,7 +167,7 @@
       "Potential energy",
       "Chemical energy"
     ],
-    "Answer": "Potential energy"
+    "answer": "Potential energy"
   },
   {
     "question": "A pendulum swings due to the conversion of:",
@@ -177,12 +177,12 @@
       "Potential to kinetic energy",
       "Chemical to thermal energy"
     ],
-    "Answer": "Potential to kinetic energy"
+    "answer": "Potential to kinetic energy"
   },
   {
     "question": "What is the unit of momentum?",
     "options": ["kg·m/s", "Newton", "Joule", "Watt"],
-    "Answer": "kg·m/s"
+    "answer": "kg·m/s"
   },
   {
     "question": "The energy of an object due to its height above the ground is:",
@@ -192,16 +192,16 @@
       "Chemical Energy",
       "Mechanical Energy"
     ],
-    "Answer": "Potential Energy"
+    "answer": "Potential Energy"
   },
   {
     "question": "Inertia is directly proportional to:",
     "options": ["Velocity", "Volume", "Mass", "Density"],
-    "Answer": "Mass"
+    "answer": "Mass"
   },
   {
     "question": "What happens to pressure if the area is reduced while force remains constant?",
     "options": ["Increases", "Decreases", "Remains the same", "Becomes zero"],
-    "Answer": "Increases"
+    "answer": "Increases"
   }
 ]
